@@ -3,58 +3,48 @@
 //  Knob
 //
 //  Created by Krutarth Majithiya on 12/12/11.
-//  Copyright (c) 2011 Swinburne University. All rights reserved.
 //
 
 #import "KnobViewController.h"
-
+#import "KnobDrawing.h"
 @implementation KnobViewController
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
+@synthesize knDrawingView;
 
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)viewDidUnload
+/* defining constants according to control button's tag id */
+
+#define knOFF 21
+#define knONE 22
+#define knTWO 23
+#define knTHREE 24
+#define knFOUR 25
+
+- (IBAction)knobControlPressed:(id)sender 
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    if ([sender tag] == knOFF) {
+        [knDrawingView setKnobValue:@"0"];
+    } else if ([sender tag] == knONE) {
+        [knDrawingView setKnobValue:@"1"];
+    } else if ([sender tag] == knTWO) {
+        [knDrawingView setKnobValue:@"2"];
+    } else if ([sender tag] == knTHREE) {
+        [knDrawingView setKnobValue:@"3"];
+    } else if ([sender tag] == knFOUR) {
+        [knDrawingView setKnobValue:@"4"];        
+    }
+    [knDrawingView setNeedsDisplay];
 }
 
-- (void)viewWillAppear:(BOOL)animated
+-(void) dealloc
 {
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    [knDrawingView release];
 }
 
 @end

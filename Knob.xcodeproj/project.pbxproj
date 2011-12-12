@@ -15,6 +15,13 @@
 		78E74B581495A2BF001338E7 /* KnobAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74B571495A2BF001338E7 /* KnobAppDelegate.m */; };
 		78E74B5B1495A2BF001338E7 /* KnobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74B5A1495A2BF001338E7 /* KnobViewController.m */; };
 		78E74B5E1495A2BF001338E7 /* KnobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78E74B5C1495A2BF001338E7 /* KnobViewController.xib */; };
+		78E74B661495A640001338E7 /* KnobDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E74B651495A640001338E7 /* KnobDrawing.m */; };
+		78E74B831495EB64001338E7 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E74B7E1495EB64001338E7 /* 2.png */; };
+		78E74B841495EB64001338E7 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E74B7F1495EB64001338E7 /* 3.png */; };
+		78E74B851495EB64001338E7 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E74B801495EB64001338E7 /* 4.png */; };
+		78E74B861495EB64001338E7 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E74B811495EB64001338E7 /* 1.png */; };
+		78E74B871495EB64001338E7 /* Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 78E74B821495EB64001338E7 /* Off.png */; };
+		78E74B8A1495EFE0001338E7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E74B891495EFE0001338E7 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +29,23 @@
 		78E74B471495A2BF001338E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78E74B491495A2BF001338E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78E74B4B1495A2BF001338E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78E74B4F1495A2BF001338E7 /* Knob-Info.plist */ = {isa = PBXFileReference; path = "Knob-Info.plist"; sourceTree = "<group>"; };
+		78E74B4F1495A2BF001338E7 /* Knob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Knob-Info.plist"; sourceTree = "<group>"; };
 		78E74B511495A2BF001338E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78E74B531495A2BF001338E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78E74B551495A2BF001338E7 /* Knob-Prefix.pch */ = {isa = PBXFileReference; path = "Knob-Prefix.pch"; sourceTree = "<group>"; };
-		78E74B561495A2BF001338E7 /* KnobAppDelegate.h */ = {isa = PBXFileReference; path = KnobAppDelegate.h; sourceTree = "<group>"; };
+		78E74B551495A2BF001338E7 /* Knob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Knob-Prefix.pch"; sourceTree = "<group>"; };
+		78E74B561495A2BF001338E7 /* KnobAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobAppDelegate.h; sourceTree = "<group>"; };
 		78E74B571495A2BF001338E7 /* KnobAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnobAppDelegate.m; sourceTree = "<group>"; };
-		78E74B591495A2BF001338E7 /* KnobViewController.h */ = {isa = PBXFileReference; path = KnobViewController.h; sourceTree = "<group>"; };
+		78E74B591495A2BF001338E7 /* KnobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KnobViewController.h; sourceTree = "<group>"; };
 		78E74B5A1495A2BF001338E7 /* KnobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KnobViewController.m; sourceTree = "<group>"; };
 		78E74B5D1495A2BF001338E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KnobViewController.xib; sourceTree = "<group>"; };
+		78E74B641495A640001338E7 /* KnobDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnobDrawing.h; sourceTree = "<group>"; };
+		78E74B651495A640001338E7 /* KnobDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnobDrawing.m; sourceTree = "<group>"; };
+		78E74B7E1495EB64001338E7 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		78E74B7F1495EB64001338E7 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		78E74B801495EB64001338E7 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		78E74B811495EB64001338E7 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		78E74B821495EB64001338E7 /* Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Off.png; sourceTree = "<group>"; };
+		78E74B891495EFE0001338E7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E74B8A1495EFE0001338E7 /* AudioToolbox.framework in Frameworks */,
 				78E74B481495A2BF001338E7 /* UIKit.framework in Frameworks */,
 				78E74B4A1495A2BF001338E7 /* Foundation.framework in Frameworks */,
 				78E74B4C1495A2BF001338E7 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +83,7 @@
 		78E74B461495A2BF001338E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78E74B891495EFE0001338E7 /* AudioToolbox.framework */,
 				78E74B471495A2BF001338E7 /* UIKit.framework */,
 				78E74B491495A2BF001338E7 /* Foundation.framework */,
 				78E74B4B1495A2BF001338E7 /* CoreGraphics.framework */,
@@ -81,7 +98,10 @@
 				78E74B571495A2BF001338E7 /* KnobAppDelegate.m */,
 				78E74B591495A2BF001338E7 /* KnobViewController.h */,
 				78E74B5A1495A2BF001338E7 /* KnobViewController.m */,
+				78E74B641495A640001338E7 /* KnobDrawing.h */,
+				78E74B651495A640001338E7 /* KnobDrawing.m */,
 				78E74B5C1495A2BF001338E7 /* KnobViewController.xib */,
+				78E74B881495EB69001338E7 /* KnobImages */,
 				78E74B4E1495A2BF001338E7 /* Supporting Files */,
 			);
 			path = Knob;
@@ -96,6 +116,18 @@
 				78E74B551495A2BF001338E7 /* Knob-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78E74B881495EB69001338E7 /* KnobImages */ = {
+			isa = PBXGroup;
+			children = (
+				78E74B7E1495EB64001338E7 /* 2.png */,
+				78E74B7F1495EB64001338E7 /* 3.png */,
+				78E74B801495EB64001338E7 /* 4.png */,
+				78E74B811495EB64001338E7 /* 1.png */,
+				78E74B821495EB64001338E7 /* Off.png */,
+			);
+			name = KnobImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +183,11 @@
 			files = (
 				78E74B521495A2BF001338E7 /* InfoPlist.strings in Resources */,
 				78E74B5E1495A2BF001338E7 /* KnobViewController.xib in Resources */,
+				78E74B831495EB64001338E7 /* 2.png in Resources */,
+				78E74B841495EB64001338E7 /* 3.png in Resources */,
+				78E74B851495EB64001338E7 /* 4.png in Resources */,
+				78E74B861495EB64001338E7 /* 1.png in Resources */,
+				78E74B871495EB64001338E7 /* Off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +201,7 @@
 				78E74B541495A2BF001338E7 /* main.m in Sources */,
 				78E74B581495A2BF001338E7 /* KnobAppDelegate.m in Sources */,
 				78E74B5B1495A2BF001338E7 /* KnobViewController.m in Sources */,
+				78E74B661495A640001338E7 /* KnobDrawing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
